@@ -3,7 +3,7 @@ from scipy.optimize import minimize
 
 # Inputs
 fund_names = np.array(["SWISX", "SWTSX", "SWAGX"])
-current_values = np.array([9236.59, 25511.75, 1804.51])  # Current values of A, B, and C
+current_values = np.array([9329.43, 25798.93, 1796.57])  # Current values of A, B, and C
 desired_allocation = np.array([0.25, 0.7, 0.05])  # Desired allocation for A, B, and C
 new_investment = 8000  # Additional investment amount
 
